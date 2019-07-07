@@ -1,6 +1,9 @@
 # dotfiles
 Setup MacOS in one-shot.
 
+## Prerequisite
+Full installation of XCode.app
+
 ## Usage
 
 ```shell
