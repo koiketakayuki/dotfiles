@@ -1,4 +1,5 @@
 # dotfiles
+Setup MacOS in one-shot.
 
 ## Usage
 
