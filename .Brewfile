@@ -6,6 +6,7 @@ brew "n"
 brew "ghq"
 brew "hub"
 brew "fzf"
+brew "gibo"
 brew "terminal-notifier"
 
 cask "alfred"

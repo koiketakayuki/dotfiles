@@ -16,6 +16,7 @@ Download via Homebrew. See [.Brewfile](https://github.com/koiketakayuki/dotfiles
 - [ghq](https://github.com/motemen/ghq) Remote repository manager
 - [fzf](https://github.com/junegunn/fzf) Command line fuzzy finder
 - [hub](https://github.com/github/hub) Make it easy to use GitHub with CLI
+- [gibo](https://github.com/simonwhitaker/gibo) Fast access to .gitignore boilerplate
 
 ### Languages
 - [n](https://github.com/tj/n) version manager for Node.js
