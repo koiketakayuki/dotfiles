@@ -13,7 +13,7 @@ cd dotfiles
 Download via Homebrew. See [.Brewfile](https://github.com/koiketakayuki/dotfiles/blob/master/.Brewfile).
 
 ### Commands
-- [ghq](https://github.com/motemen/ghq) Remove repository manager
+- [ghq](https://github.com/motemen/ghq) Remote repository manager
 - [fzf](https://github.com/junegunn/fzf) Command line fuzzy finder
 - [hub](https://github.com/github/hub) Make it easy to use GitHub with CLI
 
