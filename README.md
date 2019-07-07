@@ -10,7 +10,7 @@ cd dotfiles
 ```
 
 ## Package Overview
-Download via Homebrew. See [here](https://github.com/koiketakayuki/dotfiles/blob/master/.Brewfile).
+Download via Homebrew. See [.Brewfile](https://github.com/koiketakayuki/dotfiles/blob/master/.Brewfile).
 
 ### Commands
 - [ghq](https://github.com/motemen/ghq) Remove repository manager
