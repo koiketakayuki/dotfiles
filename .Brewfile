@@ -11,6 +11,7 @@ brew "terminal-notifier"
 brew "tig"
 brew "tmux"
 brew "emacs"
+brew "docker"
 
 cask "alfred"
 cask "dash"
