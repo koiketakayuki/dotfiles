@@ -2,11 +2,13 @@ OPEN_EDITOR=code-insiders;
 FILTER=fzf;
 
 function fproject() {
+    arg=${1:-$OPEN_EDITOR};
     project=$(ghq list | $FILTER);
 
     [ -z "$project" ] || {
-	$OPEN_EDITOR $(ghq root)/$project;
+        $arg $(ghq root)/$project;
     }
+    unset arg;
     unset project;
 }
 
