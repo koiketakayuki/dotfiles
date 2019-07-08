@@ -8,6 +8,7 @@ brew "hub"
 brew "fzf"
 brew "gibo"
 brew "terminal-notifier"
+brew "tig"
 brew "emacs"
 
 cask "alfred"
