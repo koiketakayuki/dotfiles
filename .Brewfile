@@ -12,5 +12,6 @@ brew "emacs"
 
 cask "alfred"
 cask "google-chrome-dev"
+cask "slack-beta"
 cask "visual-studio-code-insiders"
 cask "1password"
