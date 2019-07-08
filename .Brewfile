@@ -13,6 +13,7 @@ brew "tmux"
 brew "emacs"
 
 cask "alfred"
+cask "dash"
 cask "google-chrome-dev"
 cask "slack-beta"
 cask "tor-browser"
