@@ -9,6 +9,7 @@ brew "fzf"
 brew "gibo"
 brew "terminal-notifier"
 brew "tig"
+brew "tmux"
 brew "emacs"
 
 cask "alfred"
