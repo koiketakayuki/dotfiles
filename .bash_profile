@@ -13,7 +13,7 @@ function fproject() {
 }
 
 function fhistory() {
-    command=$(history | cut -c 8- | sort | awk '{$1=$1};1' | egrep -v ${FUNCNAME[0]} | uniq | fzf);
-    [ -z "$command" ] || $command;
-    unset command;
+    selected_command=$(history | cut -c 8- | sort | awk '{$1=$1};1' | egrep -v ${FUNCNAME[0]} | uniq | fzf);
+    [ -z "$selected_command" ] || $selected_command;
+    unset selected_command;
 }
