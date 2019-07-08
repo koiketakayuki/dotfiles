@@ -17,3 +17,9 @@ function fhistory() {
     [ -z "$selected_command" ] || $selected_command;
     unset selected_command;
 }
+
+function fbranch() {
+    branch=$(git branch | fzf | sed -e "s/[ *]//g");
+    [ -z "$branch" ] || git checkout $branch;
+    unset branch;
+}
