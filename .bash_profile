@@ -23,3 +23,9 @@ function fbranch() {
     [ -z "$branch" ] || git checkout $branch;
     unset branch;
 }
+
+function fpr() {
+    pr_number=$(hub pr list | fzf | awk '{print $1}' | cut -b 2-);
+    [ -z "$pr_number" ] || hub pr checkout $pr_number;
+    unset pr_number;
+}
