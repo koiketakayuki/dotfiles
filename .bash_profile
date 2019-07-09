@@ -1,7 +1,7 @@
 OPEN_EDITOR=code-insiders;
 FILTER=fzf;
 
-function fproject() {
+function frepository() {
     arg=${1:-$OPEN_EDITOR};
     project=$(ghq list | $FILTER);
 
