@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 OPEN_EDITOR=code-insiders;
 FILTER=fzf;
 
