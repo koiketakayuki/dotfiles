@@ -13,6 +13,7 @@ brew "tmux"
 brew "emacs"
 brew "docker"
 brew "kubernetes-cli"
+brew "go"
 
 cask "alfred"
 cask "dash"
