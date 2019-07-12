@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+export PATH=$PATH:$(go env GOPATH)/bin
+
 OPEN_EDITOR=code-insiders;
 FILTER=fzf;
 
