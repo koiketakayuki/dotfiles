@@ -1,10 +1,16 @@
 ## -*- mode: makefile-gmake; -*-
 
 .PHONY: all
-all: bash ssh osx-config homebrew
+all: bash fish ssh osx-config homebrew
 
 .PHONY: bash
 	ln -vsf ${PWD}/.bash_profile ${HOME}
+
+.PHONY: fish
+fish:
+	curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs git.io/fisherman
+	ln -vsf ${PWD}/.config/fish/config.fish ${HOME}/.config/fish/
+	ln -vsf ${PWD}/.config/fish/fishfile ${HOME}/.config/fish/
 
 .PHONY: ssh
 ssh:
