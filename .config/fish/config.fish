@@ -1,1 +1,3 @@
 set -U FZF_LEGACY_KEYBINDINGS 0
+set -x PATH $PATH $GOROOT/bin
+set -x PATH $PATH $GOPATH/bin
