@@ -15,6 +15,7 @@ brew "docker"
 brew "kubernetes-cli"
 brew "go"
 brew "fish"
+brew "gcc"
 
 cask "alfred"
 cask "dash"
