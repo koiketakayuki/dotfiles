@@ -16,6 +16,7 @@ brew "kubernetes-cli"
 brew "go"
 brew "fish"
 brew "gcc"
+brew "pipenv"
 
 cask "alfred"
 cask "dash"
